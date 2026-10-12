@@ -1,0 +1,1495 @@
+{
+  "resources": [
+    {
+      "id": "numpy-beginners",
+      "title": "NumPy beginner's guide",
+      "url": "https://numpy.org/doc/stable/user/absolute_beginners.html",
+      "category": "foundations",
+      "topics": [
+        "python",
+        "numerical-computing"
+      ],
+      "level": "beginner",
+      "kind": "documentation",
+      "why": "Practice arrays, indexing, broadcasting, and numerical operations before implementing image pipelines.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "mathematics-ml",
+      "title": "Mathematics for Machine Learning",
+      "url": "https://mml-book.github.io/",
+      "category": "foundations",
+      "topics": [
+        "linear-algebra",
+        "probability",
+        "optimization"
+      ],
+      "level": "beginner",
+      "kind": "book",
+      "why": "Connect linear algebra, probability, and optimization to the mathematics used in vision models.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "szeliski-book",
+      "title": "Computer Vision: Algorithms and Applications",
+      "url": "https://szeliski.org/Book/",
+      "category": "foundations",
+      "topics": [
+        "classical-vision",
+        "geometry",
+        "image-processing"
+      ],
+      "level": "all",
+      "kind": "book",
+      "why": "Build the geometry and image-formation intuition that remains useful alongside learned models.",
+      "access": "registration",
+      "caveat": "Second-edition PDF requires an information form and is for personal use; link to the book page rather than reposting it."
+    },
+    {
+      "id": "dive-into-deep-learning",
+      "title": "Dive into Deep Learning",
+      "url": "https://d2l.ai/",
+      "category": "foundations",
+      "topics": [
+        "deep-learning",
+        "pytorch",
+        "implementation"
+      ],
+      "level": "beginner",
+      "kind": "book",
+      "why": "Work through executable explanations of optimization, convolution, attention, and training systems.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "understanding-deep-learning",
+      "title": "Understanding Deep Learning",
+      "url": "https://udlbook.github.io/udlbook/",
+      "category": "foundations",
+      "topics": [
+        "deep-learning",
+        "mathematics",
+        "generative-models"
+      ],
+      "level": "intermediate",
+      "kind": "book",
+      "why": "Use diagrams and exercises to connect neural-network mathematics with practical modeling decisions.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "cs231n",
+      "title": "Stanford CS231n",
+      "url": "https://cs231n.stanford.edu/",
+      "category": "courses",
+      "topics": [
+        "deep-learning",
+        "classification",
+        "training"
+      ],
+      "level": "beginner",
+      "kind": "course",
+      "why": "Study visual recognition through structured lectures and substantial implementation assignments.",
+      "access": "free",
+      "caveat": "Public materials are available; enrollment and assignment infrastructure are separate."
+    },
+    {
+      "id": "cs231a",
+      "title": "Stanford CS231A",
+      "url": "https://web.stanford.edu/class/cs231a/",
+      "category": "courses",
+      "topics": [
+        "geometry",
+        "3d-vision",
+        "cameras"
+      ],
+      "level": "intermediate",
+      "kind": "course",
+      "why": "Learn camera models, epipolar geometry, reconstruction, and visual recognition prerequisites.",
+      "access": "free",
+      "caveat": "Check the course offering for which lectures and assignments are publicly accessible."
+    },
+    {
+      "id": "fastai",
+      "title": "Practical Deep Learning for Coders",
+      "url": "https://course.fast.ai/",
+      "category": "courses",
+      "topics": [
+        "deep-learning",
+        "transfer-learning",
+        "projects"
+      ],
+      "level": "beginner",
+      "kind": "course",
+      "why": "Train useful models early, then study the mechanisms behind the training loop.",
+      "access": "free",
+      "caveat": "Hosted notebooks or GPU services may impose quotas or charges."
+    },
+    {
+      "id": "pytorch-tutorials",
+      "title": "PyTorch Tutorials",
+      "url": "https://pytorch.org/tutorials/",
+      "category": "courses",
+      "topics": [
+        "pytorch",
+        "training",
+        "deployment"
+      ],
+      "level": "all",
+      "kind": "course",
+      "why": "Follow maintained examples for tensor operations, transfer learning, profiling, and model export.",
+      "access": "free",
+      "caveat": "Choose examples matching your installed PyTorch release."
+    },
+    {
+      "id": "huggingface-cv-course",
+      "title": "Hugging Face Community Computer Vision Course",
+      "url": "https://huggingface.co/learn/computer-vision-course/en/unit0/welcome/welcome",
+      "category": "courses",
+      "topics": [
+        "transformers",
+        "computer-vision",
+        "implementation"
+      ],
+      "level": "beginner",
+      "kind": "course",
+      "why": "Explore modern vision tasks with model libraries and guided exercises.",
+      "access": "free",
+      "caveat": "Some exercises need a model download, account, or GPU."
+    },
+    {
+      "id": "mit-6s191",
+      "title": "MIT Introduction to Deep Learning",
+      "url": "https://introtodeeplearning.com/",
+      "category": "courses",
+      "topics": [
+        "deep-learning",
+        "foundations",
+        "generative-models"
+      ],
+      "level": "beginner",
+      "kind": "course",
+      "why": "Use a compact lecture-and-lab sequence to establish neural-network fundamentals.",
+      "access": "free",
+      "caveat": "Inspect the year of each lab and its runtime dependencies."
+    },
+    {
+      "id": "full-stack-deep-learning",
+      "title": "Full Stack Deep Learning",
+      "url": "https://fullstackdeeplearning.com/course/2022/",
+      "category": "courses",
+      "topics": [
+        "ml-systems",
+        "data",
+        "deployment"
+      ],
+      "level": "intermediate",
+      "kind": "course",
+      "why": "Learn experiment design, data management, deployment, and the engineering around a trained model.",
+      "access": "free",
+      "caveat": "The 2022 course is selected for durable systems principles, not current package versions."
+    },
+    {
+      "id": "resnet-paper",
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://arxiv.org/abs/1512.03385",
+      "category": "papers",
+      "topics": [
+        "classification",
+        "cnn",
+        "optimization"
+      ],
+      "level": "beginner",
+      "kind": "paper",
+      "why": "Understand residual connections and why deeper networks need careful optimization comparisons.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "unet-paper",
+      "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "url": "https://arxiv.org/abs/1505.04597",
+      "category": "papers",
+      "topics": [
+        "segmentation",
+        "medical-imaging",
+        "cnn"
+      ],
+      "level": "beginner",
+      "kind": "paper",
+      "why": "Trace encoder-decoder shapes and skip connections in a practical dense-prediction architecture.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "faster-rcnn-paper",
+      "title": "Faster R-CNN",
+      "url": "https://arxiv.org/abs/1506.01497",
+      "category": "papers",
+      "topics": [
+        "detection",
+        "region-proposals"
+      ],
+      "level": "intermediate",
+      "kind": "paper",
+      "why": "Separate proposal generation, classification, and box regression in two-stage detection.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "yolo-paper",
+      "title": "You Only Look Once: Unified, Real-Time Object Detection",
+      "url": "https://arxiv.org/abs/1506.02640",
+      "category": "papers",
+      "topics": [
+        "detection",
+        "real-time"
+      ],
+      "level": "intermediate",
+      "kind": "paper",
+      "why": "Study the original single-stage formulation and its localization tradeoffs.",
+      "access": "free",
+      "caveat": "The original paper does not describe modern packages that share the YOLO name."
+    },
+    {
+      "id": "detr-paper",
+      "title": "End-to-End Object Detection with Transformers",
+      "url": "https://arxiv.org/abs/2005.12872",
+      "category": "papers",
+      "topics": [
+        "detection",
+        "transformers",
+        "set-prediction"
+      ],
+      "level": "intermediate",
+      "kind": "paper",
+      "why": "Understand object queries, bipartite matching, and detection as set prediction.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "vit-paper",
+      "title": "An Image is Worth 16x16 Words",
+      "url": "https://arxiv.org/abs/2010.11929",
+      "category": "papers",
+      "topics": [
+        "classification",
+        "transformers",
+        "representation-learning"
+      ],
+      "level": "intermediate",
+      "kind": "paper",
+      "why": "Connect image patches, positional embeddings, and transformer scaling to visual recognition.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "clip-paper",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://arxiv.org/abs/2103.00020",
+      "category": "papers",
+      "topics": [
+        "vision-language",
+        "retrieval",
+        "contrastive-learning"
+      ],
+      "level": "intermediate",
+      "kind": "paper",
+      "why": "Learn image-text contrastive training and examine sensitivity to prompts and distribution shift.",
+      "access": "free",
+      "caveat": "Original training data is not fully released for exact reproduction."
+    },
+    {
+      "id": "simclr-paper",
+      "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+      "url": "https://arxiv.org/abs/2002.05709",
+      "category": "papers",
+      "topics": [
+        "self-supervised-learning",
+        "representation-learning"
+      ],
+      "level": "intermediate",
+      "kind": "paper",
+      "why": "Study how augmentation, projection heads, and negatives shape contrastive representations.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "mae-paper",
+      "title": "Masked Autoencoders Are Scalable Vision Learners",
+      "url": "https://arxiv.org/abs/2111.06377",
+      "category": "papers",
+      "topics": [
+        "self-supervised-learning",
+        "transformers"
+      ],
+      "level": "intermediate",
+      "kind": "paper",
+      "why": "Investigate masking ratios and asymmetric encoders as a self-supervised learning design.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "nerf-paper",
+      "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+      "url": "https://arxiv.org/abs/2003.08934",
+      "category": "papers",
+      "topics": [
+        "3d-vision",
+        "neural-rendering"
+      ],
+      "level": "advanced",
+      "kind": "paper",
+      "why": "Derive ray sampling and volume rendering before trying faster reconstruction systems.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "gaussian-splatting-paper",
+      "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "url": "https://arxiv.org/abs/2308.04079",
+      "category": "papers",
+      "topics": [
+        "3d-vision",
+        "neural-rendering"
+      ],
+      "level": "advanced",
+      "kind": "paper",
+      "why": "Compare explicit Gaussian scene representations with neural radiance fields.",
+      "access": "free",
+      "caveat": "Paper availability does not imply unrestricted rights to associated code or datasets."
+    },
+    {
+      "id": "ddpm-paper",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "url": "https://arxiv.org/abs/2006.11239",
+      "category": "papers",
+      "topics": [
+        "generative-models",
+        "diffusion"
+      ],
+      "level": "advanced",
+      "kind": "paper",
+      "why": "Work through the forward noise process, reverse denoising objective, and sampling cost.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "latent-diffusion-paper",
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "url": "https://arxiv.org/abs/2112.10752",
+      "category": "papers",
+      "topics": [
+        "generative-models",
+        "diffusion"
+      ],
+      "level": "advanced",
+      "kind": "paper",
+      "why": "Understand the compute tradeoff of diffusion in a learned latent representation.",
+      "access": "free",
+      "caveat": "Read each associated checkpoint's separate usage terms."
+    },
+    {
+      "id": "dinov3-paper",
+      "title": "DINOv3",
+      "url": "https://arxiv.org/abs/2508.10104",
+      "category": "papers",
+      "topics": [
+        "self-supervised-learning",
+        "dense-features"
+      ],
+      "level": "advanced",
+      "kind": "paper",
+      "why": "Study dense feature quality and transfer beyond image-level classification.",
+      "access": "free",
+      "caveat": "Full pretraining data and compute are not accessible reproduction defaults."
+    },
+    {
+      "id": "sam3-paper",
+      "title": "SAM 3: Segment Anything with Concepts",
+      "url": "https://arxiv.org/abs/2511.16719",
+      "category": "papers",
+      "topics": [
+        "segmentation",
+        "open-vocabulary",
+        "tracking"
+      ],
+      "level": "advanced",
+      "kind": "paper",
+      "why": "Examine concept prompts and the interaction between image detection and video tracking.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "vjepa21-paper",
+      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+      "url": "https://arxiv.org/abs/2603.14482",
+      "category": "papers",
+      "topics": [
+        "video",
+        "self-supervised-learning",
+        "world-models"
+      ],
+      "level": "advanced",
+      "kind": "paper",
+      "why": "Study dense predictive objectives and intermediate-layer supervision for temporally consistent representations.",
+      "access": "free",
+      "caveat": "Reported benchmark outcomes are task-specific and require the matching evaluation protocol."
+    },
+    {
+      "id": "vggt-omega-paper",
+      "title": "VGGT-Omega",
+      "url": "https://arxiv.org/abs/2605.15195",
+      "category": "papers",
+      "topics": [
+        "3d-vision",
+        "geometry",
+        "transformers"
+      ],
+      "level": "advanced",
+      "kind": "paper",
+      "why": "Examine register attention and scalable geometric representation learning.",
+      "access": "free",
+      "caveat": "Use the authors' September 2026 reproduction checkpoint for benchmark comparisons."
+    },
+    {
+      "id": "qwen3-vl-embedding-paper",
+      "title": "Qwen3-VL-Embedding and Qwen3-VL-Reranker",
+      "url": "https://arxiv.org/abs/2601.04720",
+      "category": "papers",
+      "topics": [
+        "vision-language",
+        "retrieval",
+        "reranking"
+      ],
+      "level": "advanced",
+      "kind": "paper",
+      "why": "Separate multimodal candidate retrieval from cross-encoder reranking and measure both stages.",
+      "access": "free",
+      "caveat": "Check benchmark versions and checkpoint sizes before comparing reported scores."
+    },
+    {
+      "id": "torchvision",
+      "title": "Torchvision",
+      "url": "https://pytorch.org/vision/stable/index.html",
+      "category": "models",
+      "topics": [
+        "classification",
+        "detection",
+        "segmentation"
+      ],
+      "level": "beginner",
+      "kind": "documentation",
+      "why": "Start with reference datasets, transformations, and pretrained vision models in one ecosystem.",
+      "access": "free",
+      "caveat": "Check individual pretrained weight metadata and dataset terms."
+    },
+    {
+      "id": "timm",
+      "title": "PyTorch Image Models",
+      "url": "https://github.com/huggingface/pytorch-image-models",
+      "category": "models",
+      "topics": [
+        "classification",
+        "backbones",
+        "transfer-learning"
+      ],
+      "level": "intermediate",
+      "kind": "repository",
+      "why": "Compare pretrained backbones with consistent model creation and training utilities.",
+      "access": "free",
+      "caveat": "Pretrained weights can have terms different from the library license."
+    },
+    {
+      "id": "ultralytics",
+      "title": "Ultralytics",
+      "url": "https://github.com/ultralytics/ultralytics",
+      "category": "models",
+      "topics": [
+        "detection",
+        "segmentation",
+        "pose"
+      ],
+      "level": "beginner",
+      "kind": "repository",
+      "why": "Build a complete detection baseline with training, validation, prediction, and export workflows.",
+      "access": "mixed",
+      "caveat": "Review AGPL-3.0 and commercial licensing before using it in a product."
+    },
+    {
+      "id": "rtdetr",
+      "title": "RT-DETR",
+      "url": "https://github.com/lyuwenyu/RT-DETR",
+      "category": "models",
+      "topics": [
+        "detection",
+        "transformers",
+        "real-time"
+      ],
+      "level": "intermediate",
+      "kind": "repository",
+      "why": "Explore transformer detection with an explicit accuracy-versus-latency evaluation target.",
+      "access": "free",
+      "caveat": "Benchmark on your target hardware with identical preprocessing and batch size."
+    },
+    {
+      "id": "grounding-dino",
+      "title": "Grounding DINO",
+      "url": "https://github.com/IDEA-Research/GroundingDINO",
+      "category": "models",
+      "topics": [
+        "detection",
+        "open-vocabulary",
+        "vision-language"
+      ],
+      "level": "intermediate",
+      "kind": "repository",
+      "why": "Use text-conditioned boxes to prototype open-vocabulary detection and annotation assistance.",
+      "access": "free",
+      "caveat": "Prompted detections require validation; generated labels are not ground truth."
+    },
+    {
+      "id": "sam2",
+      "title": "Segment Anything 2",
+      "url": "https://github.com/facebookresearch/sam2",
+      "category": "models",
+      "topics": [
+        "segmentation",
+        "video",
+        "tracking"
+      ],
+      "level": "intermediate",
+      "kind": "repository",
+      "why": "Learn promptable image and video segmentation with released checkpoints and examples.",
+      "access": "free",
+      "caveat": "Choose checkpoints and code versions together; video memory use grows with workload."
+    },
+    {
+      "id": "sam3",
+      "title": "Segment Anything 3 and 3.1",
+      "url": "https://github.com/facebookresearch/sam3",
+      "category": "models",
+      "topics": [
+        "segmentation",
+        "open-vocabulary",
+        "tracking"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Explore concept segmentation and the 2026 shared-memory multi-object tracking update.",
+      "access": "registration",
+      "caveat": "Check the SAM license, gated checkpoint access, and documented CUDA requirements."
+    },
+    {
+      "id": "dinov3",
+      "title": "DINOv3 reference implementation",
+      "url": "https://github.com/facebookresearch/dinov3",
+      "category": "models",
+      "topics": [
+        "self-supervised-learning",
+        "dense-features",
+        "backbones"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Extract dense features and compare frozen probes with downstream adaptation.",
+      "access": "registration",
+      "caveat": "Weights require access; the custom DINOv3 license and large training budgets need review."
+    },
+    {
+      "id": "cotracker",
+      "title": "CoTracker",
+      "url": "https://github.com/facebookresearch/co-tracker",
+      "category": "models",
+      "topics": [
+        "tracking",
+        "video",
+        "motion"
+      ],
+      "level": "intermediate",
+      "kind": "repository",
+      "why": "Track points jointly to study motion, occlusion, and temporal correspondence.",
+      "access": "free",
+      "caveat": "Code and pretrained checkpoints may have different license terms."
+    },
+    {
+      "id": "bytetrack",
+      "title": "ByteTrack",
+      "url": "https://github.com/ifzhang/ByteTrack",
+      "category": "models",
+      "topics": [
+        "tracking",
+        "detection",
+        "video"
+      ],
+      "level": "intermediate",
+      "kind": "repository",
+      "why": "Build a tracking baseline that associates high- and low-confidence detections.",
+      "access": "free",
+      "caveat": "Tracking quality depends strongly on detector, thresholds, and dataset protocol."
+    },
+    {
+      "id": "mmpose",
+      "title": "MMPose",
+      "url": "https://github.com/open-mmlab/mmpose",
+      "category": "models",
+      "topics": [
+        "pose",
+        "keypoints",
+        "human-motion"
+      ],
+      "level": "intermediate",
+      "kind": "repository",
+      "why": "Explore pose estimation models, datasets, and evaluation across multiple keypoint settings.",
+      "access": "free",
+      "caveat": "Check dependency compatibility and each model's data and weight licenses."
+    },
+    {
+      "id": "qwen3-vl",
+      "title": "Qwen3-VL",
+      "url": "https://github.com/QwenLM/Qwen3-VL",
+      "category": "models",
+      "topics": [
+        "vision-language",
+        "video",
+        "document-understanding"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Compare multimodal inference and fine-tuning across model sizes and input budgets.",
+      "access": "free",
+      "caveat": "Memory and latency depend on image resolution, video frames, tokens, and checkpoint size."
+    },
+    {
+      "id": "qwen3-vl-embedding",
+      "title": "Qwen3-VL-Embedding and Reranker code",
+      "url": "https://github.com/QwenLM/Qwen3-VL-Embedding",
+      "category": "models",
+      "topics": [
+        "retrieval",
+        "vision-language",
+        "document-understanding"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Build visual-document or video search with separate embedding and reranking stages.",
+      "access": "free",
+      "caveat": "Measure candidate recall before attributing gains to reranking."
+    },
+    {
+      "id": "paddleocr",
+      "title": "PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "category": "models",
+      "topics": [
+        "ocr",
+        "document-understanding",
+        "multilingual"
+      ],
+      "level": "intermediate",
+      "kind": "repository",
+      "why": "Compare scene text recognition, layout parsing, and document VLM workflows.",
+      "access": "free",
+      "caveat": "Pin pipeline and model versions; language coverage and output schemas vary by model."
+    },
+    {
+      "id": "vggt",
+      "title": "VGGT",
+      "url": "https://github.com/facebookresearch/vggt",
+      "category": "models",
+      "topics": [
+        "3d-vision",
+        "geometry",
+        "reconstruction"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Infer cameras, depth, point maps, and tracks from one or more views.",
+      "access": "mixed",
+      "caveat": "Original weights are non-commercial; a separately gated commercial-use checkpoint has different terms."
+    },
+    {
+      "id": "depth-anything-3",
+      "title": "Depth Anything 3",
+      "url": "https://github.com/ByteDance-Seed/Depth-Anything-3",
+      "category": "models",
+      "topics": [
+        "depth",
+        "3d-vision",
+        "geometry"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Explore monocular and multiview geometry through a shared depth-ray representation.",
+      "access": "free",
+      "caveat": "Check the license of the chosen checkpoint and memory requirements for long sequences."
+    },
+    {
+      "id": "sam3d-objects",
+      "title": "SAM 3D Objects",
+      "url": "https://github.com/facebookresearch/sam-3d-objects",
+      "category": "models",
+      "topics": [
+        "3d-vision",
+        "reconstruction",
+        "objects"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Investigate single-image object reconstruction and inspect ambiguity in unseen geometry.",
+      "access": "registration",
+      "caveat": "SAM license applies; inspect checkpoint access and GPU requirements before downloading."
+    },
+    {
+      "id": "vjepa2",
+      "title": "V-JEPA 2 and 2.1",
+      "url": "https://github.com/facebookresearch/vjepa2",
+      "category": "models",
+      "topics": [
+        "video",
+        "self-supervised-learning",
+        "world-models"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Explore video representations, dense-feature learning, and action-conditioned latent prediction.",
+      "access": "free",
+      "caveat": "Representation evaluation and robot planning require different checkpoints and protocols."
+    },
+    {
+      "id": "openvla",
+      "title": "OpenVLA",
+      "url": "https://github.com/openvla/openvla",
+      "category": "models",
+      "topics": [
+        "robotics",
+        "vision-language-action"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Study how a vision-language backbone is adapted to robot action prediction.",
+      "access": "free",
+      "caveat": "Simulation results do not establish reliable control on a different robot."
+    },
+    {
+      "id": "openpi",
+      "title": "Physical Intelligence openpi",
+      "url": "https://github.com/Physical-Intelligence/openpi",
+      "category": "models",
+      "topics": [
+        "robotics",
+        "vision-language-action",
+        "flow-matching"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Explore pi0, pi0-FAST, and pi0.5 inference and adaptation on robot demonstrations.",
+      "access": "free",
+      "caveat": "Review inherited backbone terms and match action conventions to the chosen embodiment."
+    },
+    {
+      "id": "isaac-groot",
+      "title": "NVIDIA Isaac GR00T",
+      "url": "https://github.com/NVIDIA/Isaac-GR00T",
+      "category": "models",
+      "topics": [
+        "robotics",
+        "vision-language-action",
+        "humanoids"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Study the N1.7 multimodal policy, data interface, fine-tuning, and simulation evaluation workflow.",
+      "access": "registration",
+      "caveat": "The documented backbone is gated; fine-tuning and inference have substantial GPU requirements."
+    },
+    {
+      "id": "wan22",
+      "title": "Wan2.2",
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "category": "models",
+      "topics": [
+        "video",
+        "generative-models",
+        "diffusion"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Explore text-to-video and image-to-video generation with released inference code.",
+      "access": "free",
+      "caveat": "Generation is GPU-intensive; obtain appropriate rights for inputs and downstream media use."
+    },
+    {
+      "id": "opencv",
+      "title": "OpenCV documentation",
+      "url": "https://docs.opencv.org/4.x/",
+      "category": "tools",
+      "topics": [
+        "classical-vision",
+        "image-processing",
+        "geometry"
+      ],
+      "level": "beginner",
+      "kind": "documentation",
+      "why": "Implement filtering, features, calibration, geometric transforms, and camera pipelines.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "scikit-image",
+      "title": "scikit-image",
+      "url": "https://scikit-image.org/docs/stable/",
+      "category": "tools",
+      "topics": [
+        "image-processing",
+        "measurement",
+        "segmentation"
+      ],
+      "level": "beginner",
+      "kind": "documentation",
+      "why": "Build interpretable image-processing baselines and inspect region-level measurements.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "kornia",
+      "title": "Kornia",
+      "url": "https://kornia.readthedocs.io/en/latest/",
+      "category": "tools",
+      "topics": [
+        "image-processing",
+        "geometry",
+        "differentiable-vision"
+      ],
+      "level": "intermediate",
+      "kind": "documentation",
+      "why": "Use differentiable image operations and geometry inside PyTorch pipelines.",
+      "access": "free",
+      "caveat": "Match optional acceleration components to your runtime environment."
+    },
+    {
+      "id": "albumentationsx",
+      "title": "AlbumentationsX",
+      "url": "https://github.com/albumentations-team/AlbumentationsX",
+      "category": "tools",
+      "topics": [
+        "augmentation",
+        "data",
+        "training"
+      ],
+      "level": "intermediate",
+      "kind": "repository",
+      "why": "Build synchronized image, box, mask, and keypoint augmentation pipelines.",
+      "access": "mixed",
+      "caveat": "Review the current AGPL/commercial licensing terms before adoption."
+    },
+    {
+      "id": "cvat",
+      "title": "CVAT",
+      "url": "https://github.com/cvat-ai/cvat",
+      "category": "tools",
+      "topics": [
+        "annotation",
+        "data",
+        "video"
+      ],
+      "level": "beginner",
+      "kind": "repository",
+      "why": "Create and review image or video annotations with task-specific labeling workflows.",
+      "access": "mixed",
+      "caveat": "Self-hosting and hosted plans differ; inspect storage and collaboration requirements."
+    },
+    {
+      "id": "label-studio",
+      "title": "Label Studio",
+      "url": "https://github.com/HumanSignal/label-studio",
+      "category": "tools",
+      "topics": [
+        "annotation",
+        "data",
+        "multimodal"
+      ],
+      "level": "beginner",
+      "kind": "repository",
+      "why": "Prototype labeling interfaces and organize human review of model predictions.",
+      "access": "mixed",
+      "caveat": "Community and hosted or enterprise features differ."
+    },
+    {
+      "id": "fiftyone",
+      "title": "FiftyOne",
+      "url": "https://github.com/voxel51/fiftyone",
+      "category": "tools",
+      "topics": [
+        "data",
+        "error-analysis",
+        "evaluation"
+      ],
+      "level": "intermediate",
+      "kind": "repository",
+      "why": "Inspect datasets visually, compare predictions, and curate difficult evaluation slices.",
+      "access": "mixed",
+      "caveat": "Distinguish open-source functionality from commercial services."
+    },
+    {
+      "id": "dvc",
+      "title": "DVC",
+      "url": "https://dvc.org/doc",
+      "category": "tools",
+      "topics": [
+        "data",
+        "versioning",
+        "reproducibility"
+      ],
+      "level": "intermediate",
+      "kind": "documentation",
+      "why": "Version dataset references and connect experiments to reproducible data pipelines.",
+      "access": "mixed",
+      "caveat": "Remote storage incurs its own access controls and storage costs."
+    },
+    {
+      "id": "mlflow",
+      "title": "MLflow",
+      "url": "https://mlflow.org/docs/latest/index.html",
+      "category": "tools",
+      "topics": [
+        "experiments",
+        "reproducibility",
+        "ml-systems"
+      ],
+      "level": "intermediate",
+      "kind": "documentation",
+      "why": "Record parameters, artifacts, and model versions for comparable experiments.",
+      "access": "free",
+      "caveat": "Configure storage and access controls when hosting a shared tracking server."
+    },
+    {
+      "id": "diffusers",
+      "title": "Hugging Face Diffusers",
+      "url": "https://huggingface.co/docs/diffusers/index",
+      "category": "tools",
+      "topics": [
+        "generative-models",
+        "diffusion",
+        "training"
+      ],
+      "level": "intermediate",
+      "kind": "documentation",
+      "why": "Experiment with diffusion pipelines, schedulers, adaptation, and memory controls.",
+      "access": "free",
+      "caveat": "Library licensing does not replace individual model-card terms."
+    },
+    {
+      "id": "lerobot",
+      "title": "LeRobot",
+      "url": "https://github.com/huggingface/lerobot",
+      "category": "tools",
+      "topics": [
+        "robotics",
+        "imitation-learning",
+        "datasets"
+      ],
+      "level": "intermediate",
+      "kind": "repository",
+      "why": "Explore robot datasets, policy training, evaluation, and supported hardware interfaces.",
+      "access": "free",
+      "caveat": "Robot hardware, embodiment compatibility, and dataset terms require separate checks."
+    },
+    {
+      "id": "colmap",
+      "title": "COLMAP",
+      "url": "https://colmap.github.io/",
+      "category": "tools",
+      "topics": [
+        "3d-vision",
+        "geometry",
+        "reconstruction"
+      ],
+      "level": "intermediate",
+      "kind": "documentation",
+      "why": "Establish a structure-from-motion and multiview-stereo baseline for reconstruction experiments.",
+      "access": "free",
+      "caveat": "Difficult texture, repeated patterns, and camera motion affect reconstruction reliability."
+    },
+    {
+      "id": "open3d",
+      "title": "Open3D",
+      "url": "https://www.open3d.org/docs/release/",
+      "category": "tools",
+      "topics": [
+        "3d-vision",
+        "point-clouds",
+        "geometry"
+      ],
+      "level": "intermediate",
+      "kind": "documentation",
+      "why": "Inspect, register, and process point clouds and meshes with reusable geometry tools.",
+      "access": "free",
+      "caveat": ""
+    },
+    {
+      "id": "coco-api",
+      "title": "COCO API",
+      "url": "https://github.com/cocodataset/cocoapi",
+      "category": "evaluation",
+      "topics": [
+        "detection",
+        "segmentation",
+        "metrics"
+      ],
+      "level": "intermediate",
+      "kind": "repository",
+      "why": "Use the reference evaluator to understand detection and segmentation precision-recall conventions.",
+      "access": "free",
+      "caveat": "Record category mapping, area ranges, and maximum detections alongside results."
+    },
+    {
+      "id": "torchmetrics",
+      "title": "TorchMetrics",
+      "url": "https://lightning.ai/docs/torchmetrics/stable/",
+      "category": "evaluation",
+      "topics": [
+        "metrics",
+        "evaluation",
+        "pytorch"
+      ],
+      "level": "intermediate",
+      "kind": "documentation",
+      "why": "Use tested metric implementations while checking task definitions and aggregation behavior.",
+      "access": "free",
+      "caveat": "Metric defaults and distributed aggregation can change the meaning of a reported score."
+    },
+    {
+      "id": "lmms-eval",
+      "title": "LMMs-Eval",
+      "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+      "category": "evaluation",
+      "topics": [
+        "vision-language",
+        "video",
+        "benchmarks"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Run multimodal evaluation with explicit model, task, and prompt configurations.",
+      "access": "free",
+      "caveat": "Some tasks require licensed datasets, credentials, external judges, or paid APIs."
+    },
+    {
+      "id": "mmmu",
+      "title": "MMMU",
+      "url": "https://mmmu-benchmark.github.io/",
+      "category": "evaluation",
+      "topics": [
+        "vision-language",
+        "reasoning",
+        "benchmarks"
+      ],
+      "level": "advanced",
+      "kind": "benchmark",
+      "why": "Examine multidisciplinary visual reasoning and per-domain failure modes.",
+      "access": "free",
+      "caveat": "Use the correct split and avoid tuning on held-out benchmark answers."
+    },
+    {
+      "id": "mathvista",
+      "title": "MathVista",
+      "url": "https://mathvista.github.io/",
+      "category": "evaluation",
+      "topics": [
+        "vision-language",
+        "reasoning",
+        "mathematics"
+      ],
+      "level": "advanced",
+      "kind": "benchmark",
+      "why": "Audit visual mathematical reasoning and distinguish perception errors from reasoning errors.",
+      "access": "free",
+      "caveat": "Record answer extraction, prompt, and evaluator configuration."
+    },
+    {
+      "id": "wilds",
+      "title": "WILDS",
+      "url": "https://wilds.stanford.edu/",
+      "category": "evaluation",
+      "topics": [
+        "distribution-shift",
+        "robustness",
+        "evaluation"
+      ],
+      "level": "intermediate",
+      "kind": "benchmark",
+      "why": "Evaluate generalization across domains with explicitly defined distribution shifts.",
+      "access": "free",
+      "caveat": "Individual datasets have separate download and use requirements."
+    },
+    {
+      "id": "omnidocbench",
+      "title": "OmniDocBench",
+      "url": "https://github.com/opendatalab/OmniDocBench",
+      "category": "evaluation",
+      "topics": [
+        "ocr",
+        "document-understanding",
+        "benchmarks"
+      ],
+      "level": "advanced",
+      "kind": "benchmark",
+      "why": "Measure document parsing components and reading order using a versioned benchmark.",
+      "access": "free",
+      "caveat": "Scores from different benchmark versions or matching rules are not directly comparable."
+    },
+    {
+      "id": "onnx-runtime",
+      "title": "ONNX Runtime",
+      "url": "https://onnxruntime.ai/docs/",
+      "category": "deployment",
+      "topics": [
+        "inference",
+        "optimization",
+        "cross-platform"
+      ],
+      "level": "intermediate",
+      "kind": "documentation",
+      "why": "Export and benchmark model inference across supported execution providers.",
+      "access": "free",
+      "caveat": "Confirm operator support and numerical parity for your exported graph."
+    },
+    {
+      "id": "openvino",
+      "title": "OpenVINO",
+      "url": "https://docs.openvino.ai/",
+      "category": "deployment",
+      "topics": [
+        "inference",
+        "optimization",
+        "edge"
+      ],
+      "level": "intermediate",
+      "kind": "documentation",
+      "why": "Explore conversion, quantization, and inference on supported Intel hardware.",
+      "access": "free",
+      "caveat": "Hardware support and quantization behavior depend on the selected runtime version."
+    },
+    {
+      "id": "tensorrt",
+      "title": "NVIDIA TensorRT",
+      "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/",
+      "category": "deployment",
+      "topics": [
+        "inference",
+        "optimization",
+        "nvidia"
+      ],
+      "level": "advanced",
+      "kind": "documentation",
+      "why": "Optimize compatible GPU inference while profiling latency, precision, and memory.",
+      "access": "free",
+      "caveat": "NVIDIA hardware and version compatibility constrain engine portability."
+    },
+    {
+      "id": "executorch",
+      "title": "ExecuTorch",
+      "url": "https://docs.pytorch.org/executorch/stable/",
+      "category": "deployment",
+      "topics": [
+        "edge",
+        "mobile",
+        "inference"
+      ],
+      "level": "advanced",
+      "kind": "documentation",
+      "why": "Investigate exporting and running PyTorch models on mobile and embedded targets.",
+      "access": "free",
+      "caveat": "Operator and backend support vary by target device."
+    },
+    {
+      "id": "triton-inference",
+      "title": "Triton Inference Server",
+      "url": "https://github.com/triton-inference-server/server",
+      "category": "deployment",
+      "topics": [
+        "serving",
+        "inference",
+        "ml-systems"
+      ],
+      "level": "advanced",
+      "kind": "repository",
+      "why": "Study model serving, batching, concurrency, and end-to-end inference observability.",
+      "access": "free",
+      "caveat": "Server throughput is not equivalent to single-request end-to-end latency."
+    },
+    {
+      "id": "cifar",
+      "title": "CIFAR-10 and CIFAR-100",
+      "url": "https://www.cs.toronto.edu/~kriz/cifar.html",
+      "category": "datasets",
+      "topics": [
+        "classification",
+        "beginner",
+        "small-data"
+      ],
+      "level": "beginner",
+      "kind": "dataset",
+      "why": "Use small images to practice splitting, optimization, and controlled baseline comparisons.",
+      "access": "free",
+      "caveat": "Low resolution limits conclusions about real-world visual recognition."
+    },
+    {
+      "id": "oxford-pets",
+      "title": "Oxford-IIIT Pet Dataset",
+      "url": "https://www.robots.ox.ac.uk/~vgg/data/pets/",
+      "category": "datasets",
+      "topics": [
+        "classification",
+        "segmentation",
+        "beginner"
+      ],
+      "level": "beginner",
+      "kind": "dataset",
+      "why": "Practice transfer learning and segmentation on a manageable labeled dataset.",
+      "access": "free",
+      "caveat": "Check the dataset's research-use and image-rights notes before redistribution."
+    },
+    {
+      "id": "coco",
+      "title": "COCO",
+      "url": "https://cocodataset.org/",
+      "category": "datasets",
+      "topics": [
+        "detection",
+        "segmentation",
+        "captioning"
+      ],
+      "level": "intermediate",
+      "kind": "dataset",
+      "why": "Learn standard annotation formats and compare object-level vision pipelines.",
+      "access": "free",
+      "caveat": "Annotations and source images have different licenses; check individual image rights."
+    },
+    {
+      "id": "pascal-voc",
+      "title": "PASCAL VOC",
+      "url": "https://www.robots.ox.ac.uk/~vgg/projects/pascal/VOC/",
+      "category": "datasets",
+      "topics": [
+        "detection",
+        "segmentation",
+        "classification"
+      ],
+      "level": "beginner",
+      "kind": "dataset",
+      "why": "Use a historically important benchmark to learn detection and segmentation evaluation.",
+      "access": "free",
+      "caveat": "Specify the challenge year, split, and metric variant."
+    },
+    {
+      "id": "open-images",
+      "title": "Open Images",
+      "url": "https://storage.googleapis.com/openimages/web/index.html",
+      "category": "datasets",
+      "topics": [
+        "detection",
+        "classification",
+        "segmentation"
+      ],
+      "level": "intermediate",
+      "kind": "dataset",
+      "why": "Explore large-scale, multilabel image annotation and object localization.",
+      "access": "free",
+      "caveat": "Check image-level licenses, attribution, and available image URLs."
+    },
+    {
+      "id": "imagenet",
+      "title": "ImageNet",
+      "url": "https://www.image-net.org/",
+      "category": "datasets",
+      "topics": [
+        "classification",
+        "representation-learning"
+      ],
+      "level": "intermediate",
+      "kind": "dataset",
+      "why": "Understand the benchmark behind many pretrained classification backbones.",
+      "access": "registration",
+      "caveat": "Image access requires registration and compliance with the dataset's terms."
+    },
+    {
+      "id": "kitti",
+      "title": "KITTI Vision Benchmark Suite",
+      "url": "https://www.cvlibs.net/datasets/kitti/",
+      "category": "datasets",
+      "topics": [
+        "autonomous-driving",
+        "depth",
+        "3d-vision"
+      ],
+      "level": "intermediate",
+      "kind": "dataset",
+      "why": "Study stereo, optical flow, detection, and odometry with structured driving benchmarks.",
+      "access": "registration",
+      "caveat": "Observe non-commercial terms and task-specific download or submission requirements."
+    },
+    {
+      "id": "nuscenes",
+      "title": "nuScenes",
+      "url": "https://www.nuscenes.org/",
+      "category": "datasets",
+      "topics": [
+        "autonomous-driving",
+        "3d-detection",
+        "sensor-fusion"
+      ],
+      "level": "advanced",
+      "kind": "dataset",
+      "why": "Explore camera, lidar, and radar perception with a documented autonomous-driving dataset.",
+      "access": "registration",
+      "caveat": "Check the applicable non-commercial dataset license and access agreement."
+    },
+    {
+      "id": "ego4d",
+      "title": "Ego4D",
+      "url": "https://ego4d-data.org/",
+      "category": "datasets",
+      "topics": [
+        "video",
+        "egocentric",
+        "actions"
+      ],
+      "level": "advanced",
+      "kind": "dataset",
+      "why": "Study first-person temporal understanding and action-oriented benchmarks.",
+      "access": "registration",
+      "caveat": "A signed data agreement and substantial storage may be required."
+    },
+    {
+      "id": "mvtec-ad",
+      "title": "MVTec Anomaly Detection",
+      "url": "https://www.mvtec.com/company/research/datasets/mvtec-ad",
+      "category": "datasets",
+      "topics": [
+        "anomaly-detection",
+        "industrial-inspection"
+      ],
+      "level": "intermediate",
+      "kind": "dataset",
+      "why": "Evaluate defect localization with normal training examples and annotated anomalies.",
+      "access": "free",
+      "caveat": "Review the dataset's non-commercial license before industrial product use."
+    },
+    {
+      "id": "docvqa",
+      "title": "DocVQA",
+      "url": "https://www.docvqa.org/",
+      "category": "datasets",
+      "topics": [
+        "document-understanding",
+        "ocr",
+        "question-answering"
+      ],
+      "level": "intermediate",
+      "kind": "dataset",
+      "why": "Test question answering over document images and inspect text-extraction dependencies.",
+      "access": "registration",
+      "caveat": "Individual tasks and challenge downloads have their own access terms."
+    },
+    {
+      "id": "droid",
+      "title": "DROID",
+      "url": "https://droid-dataset.github.io/",
+      "category": "datasets",
+      "topics": [
+        "robotics",
+        "imitation-learning",
+        "video"
+      ],
+      "level": "advanced",
+      "kind": "dataset",
+      "why": "Inspect diverse robot manipulation demonstrations and cross-environment data variation.",
+      "access": "free",
+      "caveat": "Full downloads are large; check dataset terms and calibration/action conventions."
+    },
+    {
+      "id": "medmnist",
+      "title": "MedMNIST",
+      "url": "https://medmnist.com/",
+      "category": "datasets",
+      "topics": [
+        "medical-imaging",
+        "classification",
+        "small-data"
+      ],
+      "level": "beginner",
+      "kind": "dataset",
+      "why": "Practice small-scale medical image classification with standardized tasks and baselines.",
+      "access": "free",
+      "caveat": "Educational benchmarking does not validate a model for clinical decisions."
+    },
+    {
+      "id": "dota",
+      "title": "DOTA",
+      "url": "https://captain-whu.github.io/DOTA/",
+      "category": "datasets",
+      "topics": [
+        "remote-sensing",
+        "oriented-detection"
+      ],
+      "level": "intermediate",
+      "kind": "dataset",
+      "why": "Learn oriented object detection and the challenges of large aerial images.",
+      "access": "free",
+      "caveat": "Specify dataset version, tiling protocol, and dataset usage terms."
+    },
+    {
+      "id": "cvf-open-access",
+      "title": "CVF Open Access",
+      "url": "https://openaccess.thecvf.com/",
+      "category": "communities",
+      "topics": [
+        "papers",
+        "conferences",
+        "research"
+      ],
+      "level": "all",
+      "kind": "portal",
+      "why": "Find official conference papers and supplemental material from major computer vision venues.",
+      "access": "free",
+      "caveat": "Conference inclusion is evidence of publication, not proof that every reported claim generalizes."
+    },
+    {
+      "id": "arxiv-cv",
+      "title": "arXiv Computer Vision and Pattern Recognition",
+      "url": "https://arxiv.org/list/cs.CV/recent",
+      "category": "communities",
+      "topics": [
+        "papers",
+        "research",
+        "discovery"
+      ],
+      "level": "all",
+      "kind": "portal",
+      "why": "Track new preprints, then verify methods, artifacts, revisions, and evaluation details.",
+      "access": "free",
+      "caveat": "Preprints may not be peer reviewed; check submission and revision dates."
+    },
+    {
+      "id": "pytorch-forums",
+      "title": "PyTorch Forums",
+      "url": "https://discuss.pytorch.org/",
+      "category": "communities",
+      "topics": [
+        "pytorch",
+        "debugging",
+        "community"
+      ],
+      "level": "all",
+      "kind": "portal",
+      "why": "Search implementation questions and learn to produce minimal reproducible bug reports.",
+      "access": "free",
+      "caveat": "Community replies require validation against current documentation and your environment."
+    }
+  ],
+  "updated": "2026-10-12"
+}

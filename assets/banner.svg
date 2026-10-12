@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Computer Vision</title>
+  <desc id="desc">Learn the foundations. Build the systems. Read the research.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111d31"/><stop offset="1" stop-color="#172e43"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#77a6bd" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#grid)"/>
+  <rect x="56" y="52" width="5" height="26" rx="2" fill="#5ce0bb"/>
+  <text x="76" y="72" fill="#5ce0bb" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">AN OPEN LEARNING GUIDE</text>
+  <text x="54" y="153" fill="#f5f8ff" font-family="Arial, sans-serif" font-size="60" font-weight="700">Computer Vision</text>
+  <text x="57" y="204" fill="#b7cada" font-family="Arial, sans-serif" font-size="24">Learn the foundations. Build the systems.</text>
+  <text x="57" y="240" fill="#b7cada" font-family="Arial, sans-serif" font-size="24">Read the research.</text>
+  <rect x="988" y="48" width="228" height="224" rx="16" fill="#0b1929" stroke="#5ce0bb" stroke-opacity=".45"/>
+  <path d="M1012 93V72h21M1172 72h21v21M1193 227v21h-21M1033 248h-21v-21" stroke="#5ce0bb" stroke-width="3" fill="none"/>
+  <text x="1102" y="162" text-anchor="middle" fill="#5ce0bb" font-family="Arial, sans-serif" font-size="58" font-weight="700">CV</text>
+  <text x="1102" y="204" text-anchor="middle" fill="#b7cada" font-family="Arial, sans-serif" font-size="15" letter-spacing="3">LEARN / BUILD / READ</text>
+</svg>

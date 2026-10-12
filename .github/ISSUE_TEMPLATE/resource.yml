@@ -1,0 +1,22 @@
+name: Suggest a resource
+description: Recommend a primary source that fills a gap.
+title: 'Resource: '
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Primary source URL
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: What should a reader learn or build with it?
+      description: Include topic, prerequisites, and why existing entries do not cover it.
+    validations:
+      required: true
+  - type: textarea
+    id: access
+    attributes:
+      label: Access, license, and compute notes
+      description: Mention registration, paid components, or restrictions you checked.

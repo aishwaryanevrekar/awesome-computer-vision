@@ -1,0 +1,21 @@
+name: Report a correction
+description: Report a broken link, inaccurate explanation, or example failure.
+title: 'Correction: '
+body:
+  - type: input
+    id: location
+    attributes:
+      label: File or resource URL
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong, and what should change?
+      description: For code failures, include the command, Python/package versions, and error text. Remove private data.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting primary source or reproduction
